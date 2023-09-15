@@ -1,0 +1,75 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+editor: visual
+---
+
+# Section 1 (h1)
+This is some text in the first section.
+
+## Subsection 1.1 (h2)
+This is text within a subsection.
+
+### Sub-subsection 1.1.1 (h3)
+This is text within a sub-subsection.
+
+# Section 2 (h1)
+This is some text in the second section.
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+Texts on the left
+:::
+
+::: {.column width="20%"}
+
+:::
+
+::: {.column width="40%"}
+Texts on the right
+:::
+
+::::
+
+- Item1
+- Item2
+- Item3
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+
+This is an inline math equation: $E=mc^2$
+
+
+$$
+\int_{a}^{b} f(x) , dx
+$$
+
+This is line including a footnote[^1]
+
+[^1]: Content of the footnote
+
+> This is a quoted text.
+
+![](./images/image1.jpg){width=300}
+![](./images/image2.jpg){width=300}
+
+
+{{< video https://www.youtube.com/watch?v=PC7kn3nA_Hc&ab_channel=HonkaiImpact3rd aspect-ratio="4x3" >}}
+
+```{mermaid}
+flowchart LR
+  A[1] --> B(2)
+  B --> C{3}
+  C --> D[3_1]
+  C --> E[3_2]
+```
+
+This is a reference[@parzen1961approach].
+  
+
+

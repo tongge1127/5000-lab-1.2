@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this page"
+  },
+  {
+    "objectID": "about.html#subsection-1.1-h2",
+    "href": "about.html#subsection-1.1-h2",
+    "title": "About",
+    "section": "Subsection 1.1 (h2)",
+    "text": "Subsection 1.1 (h2)\nThis is text within a subsection.\n\nSub-subsection 1.1.1 (h3)\nThis is text within a sub-subsection.\n\n\nCode\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.array([10,20,30,40])\ny = np.arange(1,5)\nplt.scatter(x=x,y=y)\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is some text in the first section.\n\n\nThis is text within a subsection.\n\n\nThis is text within a sub-subsection."
+  },
+  {
+    "objectID": "index.html#subsection-1.1-h2",
+    "href": "index.html#subsection-1.1-h2",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is text within a subsection.\n\n\nThis is text within a sub-subsection."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nContent of the footnote↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#impact-3",
+    "href": "slides/slides.html#impact-3",
+    "title": "Games",
+    "section": "Impact 3",
+    "text": "Impact 3\n\nplayer\ncharacter"
+  },
+  {
+    "objectID": "slides/slides.html#genshin-impact",
+    "href": "slides/slides.html#genshin-impact",
+    "title": "Games",
+    "section": "Genshin Impact",
+    "text": "Genshin Impact\n\nplayer\nThis is a reference(Parzen 1961).\nDcharacter"
+  },
+  {
+    "objectID": "slides/slides.html#plot",
+    "href": "slides/slides.html#plot",
+    "title": "Games",
+    "section": "plot",
+    "text": "plot"
+  },
+  {
+    "objectID": "slides/slides.html#bibliography",
+    "href": "slides/slides.html#bibliography",
+    "title": "Games",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\n\n\n\n\nParzen, Emanuel. 1961. “An Approach to Time Series Analysis.” The Annals of Mathematical Statistics 32 (4): 951–89."
+  }
+]
